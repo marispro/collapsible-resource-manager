@@ -3,6 +3,7 @@
 namespace DigitalCreative\CollapsibleResourceManager;
 
 use DigitalCreative\CollapsibleResourceManager\Resources\TopLevelResource;
+use Illuminate\Http\Request;
 use Illuminate\View\View;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Nova;
@@ -100,4 +101,8 @@ class CollapsibleResourceManager extends Tool
 
     }
 
+    public function menu(Request $request)
+    {
+        // TODO: Implement menu() method.
+    }
 }
